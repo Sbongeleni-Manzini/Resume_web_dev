@@ -1,0 +1,116 @@
+/* Body Background */
+body {
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark text color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #1e2a38, #4b5d73); /* Dark blue gradient */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Title Styling */
+header h1 {
+    color: #A3C2C2; /* Light teal color */
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+
+/* Subtitle Styling */
+header p {
+    color: #e0e0e0; /* Light grey */
+}
+
+/* Navigation Links */
+header nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #A3C2C2; /* Light teal on hover */
+}
+
+/* Section Backgrounds */
+section {
+    border: 2px solid #B0E0E6;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button, .button {
+    background-color: #1e2a38; /* Dark blue background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background-color: #4b5d73; /* Lighter blue on hover */
+}
+
+/* Link Colors */
+a {
+    color: #0077cc; /* Bright blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005fa3; /* Darker blue for hover */
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.close {
+    color: #333;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover {
+    color: #000;
+}

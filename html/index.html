@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .resume-container {
+           width: 80%;
+           max-width: 800px;
+           margin: 50px auto;
+           padding: 20px;
+           border: 2px solid DodgerBlue;
+           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+           background-color: #f9f9f9;
+           border-radius: 10px;
+       }
+       h1{
+           text-align: center;
+           background-color: #1e2a38;
+           color: DodgerBlue;
+           font-size: 70px;
+           border-radius: 10px;}
+       p{
+           text-align: center;
+           font-size: 20px;}
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <header>
+            <h1><strong>Sbongeleni Sibekezele Manzini</strong></h1>
+            <p><strong>Junior Developer | WeThinkCode Student</strong></p>
+            <p><strong>Diploma in Accounting | Mangosuthu University of Technology</strong></p>
+            <p><strong>Email: sbongelenisbekezele@gmail.com</strong></p>
+            <p><strong>Cellphone Number: 0728641390</strong></p>
+        </header>
+
+        <section id="objectives">
+            <h2>Objectives</h2>
+            <p>To secure a challenging position in a globally competitive environment where I can use my skills to contribute to the success of the organization.</p>
+        </section> <!-- Close the objectives section -->
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skill">
+                <label>HTML/CSS/JavaScript</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>Java</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>Python</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%"></div>
+                </div>
+            </div>
+
+            <h2>Accounting Skills</h2>
+            <div class="skill">
+                <label>Financial Reporting</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>Taxation</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>Budgeting and Forecasting</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>Accounts Payable & Receivable</label>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Brownfield Project</h3>
+                <p><a href="https://gitlab.wethinkco.de/manna023/brown-fields-dbn-07" target="_blank">Details</a></p>
+            </div>
+
+            <div class="project-card">
+                <h3>Banking App</h3>
+                <p>This is a personal project I developed to simulate a banking application.</p>
+                <p><a href="https://github.com/Smanzini023/banking-app" target="_blank">View Project on GitHub</a></p>
+            </div>
+        </section>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
